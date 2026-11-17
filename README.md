@@ -1,4 +1,4 @@
-# livepublicator-com
+# LivePublicator
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-livepublicator-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://livepublicator.com/
+LivePublicator provides a platform for companies to publish press releases that are structured for people, search engines and AI assistants. It offers pricing starting at $9 for a first release and additional services such as wider news‑site distribution and branded company newsrooms.
+
+**Areas:** Press releases · AI‑ready publishing · Company newsroom · Content publishing
+
+## LivePublicator on APIs.io
+
+Everything profiled for LivePublicator is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/livepublicator-com/](https://apis.io/providers/livepublicator-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [LivePublicator Credits API](https://apis.io/apis/livepublicator-com/livepublicator-com-credits-api/) — The Credits API from LivePublicator — 1 operation(s) for credits.
+- [LivePublicator Releases API](https://apis.io/apis/livepublicator-com/livepublicator-com-releases-api/) — The Releases API from LivePublicator — 3 operation(s) for releases.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Livepublicator Com Webhooks](https://apis.io/asyncapis/livepublicator-com/livepublicator-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [LivePublicator Agentic Access](https://apis.io/agentic-access/livepublicator-com/livepublicator-com-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Credits](https://apis.io/schemas/livepublicator-com/livepublicator-com-credits/)
+- [Release](https://apis.io/schemas/livepublicator-com/livepublicator-com-release/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Livepublicator Com Context](https://apis.io/jsonld/livepublicator-com/livepublicator-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LivePublicator API Rules](https://apis.io/rules/livepublicator-com/livepublicator-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [LivePublicator Authentication](https://apis.io/security/livepublicator-com/livepublicator-com-authentication/)
+- [LivePublicator Domain Security](https://apis.io/security/livepublicator-com/livepublicator-com-domain-security/)
+- [LivePublicator Vulnerability Disclosure](https://apis.io/security/livepublicator-com/livepublicator-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [LivePublicator Plans Pricing](https://apis.io/plans/livepublicator-com/livepublicator-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://livepublicator.com/)
+- [Documentation](https://livepublicator.com/guides)
+- [API reference](https://livepublicator.com/docs/api)
+- [Pricing](https://livepublicator.com/pricing)
+- [Support](https://livepublicator.com/help/connect-ai-assistant)
+- [Terms of service](https://livepublicator.com/terms)
+- [Privacy policy](https://livepublicator.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.4** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 59.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 16.7 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 48.5 |
+
+**Agent readiness 71.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/livepublicator-com/](https://apis.io/providers/livepublicator-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LivePublicator: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/livepublicator-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
